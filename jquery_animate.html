@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+
+<p id="myParagraph">This paragraph will be animated.</p>
+<button id="animateButton">Animate Paragraph</button>
+
+<script>
+    $(document).ready(function () {
+        $('#animateButton').click(function () {
+            $('#myParagraph').animate({
+                opacity: 0.5,
+                height: '150px',
+                width: '350px',
+                fontSize: '24px',
+                marginLeft: '100px'
+            }, 2000); 
+        });
+    });
+</script>
+
+</body>
+</html>

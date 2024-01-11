@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        table{
+            border-collapse: collapse;
+            
+        }
+        .container{
+            min-height: 100vh;
+            position: relative;
+        }
+        .back{
+            background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkaKVf8L8gbdU6Kj_KoS_qjI5roa0zxbwUaQ&usqp=CAU");
+            background-size: cover;
+            filter:blur(5px); 
+            z-index: 1;
+        }
+        .front{
+            z-index: 2;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+        .back, .front{
+            position:absolute;
+            top:0;
+            left:0;
+            width:100%;
+            height:100%;
+        }
+        #tablebox{
+            filter: drop-shadow(5px 5px);
+            padding:30px;
+            font-weight: 600;
+            background: rgba(60, 255, 255, 0.3);
+            border-radius:20px;
+        }
+        #tablebox tr{
+            padding:5px;
+            text-decoration: none;
+            background:#730ab9;
+            color:aliceblue;
+        }
+        #tablebox th {
+            background-color: black;
+        }
+        .front1{
+            display: flex;
+        }
+        #tablebox1{
+            padding: 30px;
+            position: absolute;
+            background: rgba(100, 200, 350, 0.3);
+            border-radius: 20px;
+        }
+        
+
+        
+    </style>
+    <div class="container">
+        <div class="back"></div>
+
+        <div class="front">
+            <div id="tablebox">
+                <table class="t1" border="1">
+                    <tr>
+                        <td>
+                            <table class="t2" border="1">
+                                <tr id="main">
+                                    <th>S.No.</th>
+                                    <th>Name</th>
+                                    <th>Place</th>
+                                    <th>Designation</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Aryan</td>
+                                    <td>Delhi</td>
+                                    <td>Trainer</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Nitesh</td>
+                                    <td>Delhi</td>
+                                    <td>Soft Dev</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Ankit</td>
+                                    <td>GGN</td>
+                                    <td>Maruti</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Sangam</td>
+                                    <td>Gwalior</td>
+                                    <td>Army</td>
+                                </tr>
+                            </table>
+                        </td>
+                        
+                        <td>
+                            <table border="1" class="t3">
+                                <tr>
+                                    <th>S.No.</th>
+                                    <th>Product</th>
+                                    <th>Quantity</th>
+                                    <th>Company</th>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>TV</td>
+                                    <td>3 pcs</td>
+                                    <td>Croma</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Phone</td>
+                                    <td>30 pcs</td>
+                                    <td>Apple</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Bat</td>
+                                    <td>3 pcs</td>
+                                    <td>BAS</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Helmet</td>
+                                    <td>3 pcs</td>
+                                    <td>SG</td>
+                                </tr>
+                        </td>
+                    </tr>
+                    
+                </table>
+
+            </div>
+
+        </div>
+        
+    </div>
+    
+     <div class="front1">
+        <div id="tablebox1">
+                
+        </div>
+    </div>
+    
+</html>

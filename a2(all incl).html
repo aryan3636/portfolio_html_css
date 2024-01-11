@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+
+            *{
+                margin:0;
+                padding:0;
+                box-sizing: border-box;
+            }
+
+            body{
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
+
+            a{
+                text-decoration: none;
+            }
+
+            li{
+                list-style: none;
+            }
+
+            .navbar{
+                border-bottom: solid gray;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding:1px;
+                color:aliceblue;
+                background-color: darkblue;
+                
+                
+            }
+            .n2{
+                margin-top: 33rem;
+                border-top: solid gray;
+                background-color: darkblue;
+                
+                
+            }
+
+            .nav-links a{
+                color:aliceblue;
+            }
+
+            .logo{
+                font-size:32px;
+                padding: 2rem;
+            }
+
+            .menu{
+                display: flex;
+                gap:1em;
+                font-size: 18px;
+                margin-right: 5rem;
+            }
+
+            .menu li{
+                padding:5px 14px;
+                text-align: right;
+            
+            }
+
+            .menu li:hover{
+                background-color: aqua;
+                border-radius: 5px;
+                transition: 0.3s ease;
+            }
+
+            .services{
+                position: relative;
+            }
+
+            .dropdown{
+                background-color: rgb(1,139,139);
+                padding:1em 0;
+                position: absolute;
+                display: none;
+                border-radius: 8px;
+                top:35px;
+            }
+
+            .dropdown li+li{
+                margin-top: 10px;
+            }
+
+
+            .dropdown li{
+                padding:0.5em 1em;
+                width:8em;
+                text-align: center;
+            }
+
+            .dropdown li:hover{
+                background-color: chartreuse;
+            }
+
+            .services:hover .dropdown{
+                display: block;
+            }
+            body{
+                background-image: url("https://media.istockphoto.com/id/636756506/photo/sao-paulo-city.jpg?s=612x612&w=0&k=20&c=ygEpTVojdb7wIaae0Ok8eCyLa3G3cCii4DCZ5VFkuSY=");
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+
+            .d2{
+                text-align: center;
+                padding: 10px;
+                margin-top: 15rem;
+            }
+            .d3{
+                justify-content: space-between ;
+                align-items:center;
+                text-align: center;
+                margin-top: 3rem;
+                
+            }
+            button{
+                background-color: yellow;
+                width: 7rem;
+                height: 2rem;
+                color: black;
+            }
+            #from{
+                height: 2rem;
+                padding-left: 5px;
+                text-align: center;
+            }
+            #to{
+                height: 2rem;
+                padding-left: 5px;
+                text-align: center;
+            }
+            #city{
+                height: 2rem;
+                margin-bottom: 3rem;
+            }
+            
+            a{
+                color: aliceblue;
+            }
+
+            img{
+                height: 20px;
+            }
+            
+        
+
+        </style>
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <div class="logo"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd8LVN6-8mGpt52XsCLMZmFqHhQsE9NlKahlVfA1Ohl9c1BIADxfk5Rer7A188XBvMpFo&usqp=CAU"> iCON</div>
+            
+
+            <ul class="nav-links">
+
+
+
+                <div class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Price</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li class="services"><a href="#">Pages</a>
+                    
+                      <ul class="dropdown">
+                        <li><a href="#">Dropdown1</a></li>
+                        <li><a href="#">Dropdown2</a></li>
+                        <li><a href="#">Dropdown3</a></li>
+                        <li><a href="#">Dropdown4</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Contact</a></li>
+                </div>
+
+            </ul>
+        </nav>
+        
+        <nav class="n2">
+            <div class="d3">
+                <input id="city" type="text" placeholder="City">
+                <input id="from" type="text"  placeholder="$ | From" >
+                <input id="to" type="text"  placeholder="$ | To" > &nbsp;
+                <input type="checkbox">&nbsp; <a> For Rent </a> &nbsp;
+                <input type="checkbox">&nbsp; <a> For Sale </a> &nbsp;
+                <button>Search</button>
+
+            </div>
+            
+
+        </nav>    
+    </body>
+</html>

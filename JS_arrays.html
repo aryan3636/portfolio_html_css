@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<body>
+
+    <p id="p1"></p>
+
+    <p id="p2"></p>
+
+    <script>
+
+        const color=["blue","green","yellow","orange","purple","white"];
+        /let size=color.length;/
+
+        // document.getElementById("p1").innerHTML=color;
+        /*color[3]="Banana";
+
+        color.unshift("Indigo");
+
+        color.push("Sample");
+
+        color.splice(2,1,"Apple","Mango");*/
+
+        const newarray=color.splice(0,4);
+        document.getElementById("p2").innerHTML=newarray;
+
+    </script>
+
+
+</body>
+</html>

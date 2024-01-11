@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <style>
+            .originalClass {
+                color: blue;
+            }
+    
+            .newClass {
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="originalClass">Original class.</div>
+        <button id="addClassBtn">New Class</button>
+        
+        <script>
+            $(document).ready(function () {
+                $('#addClassBtn').click(function () {
+                    $('.originalClass').addClass('newClass');
+                });
+            });
+        </script>
+        
+    </body>
+        
+</html>

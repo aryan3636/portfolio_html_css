@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <div id="myDiv" style="color: red; background-color: yellow;">This is a styled div.</div>
+
+    <button id="removeStyle">Remove Style</button>
+        
+    <script>
+        $(document).ready(function () {
+            $('#removeStyle').click(function () {
+                $('#myDiv').removeAttr('style');
+            });
+        });
+    </script>
+</html>

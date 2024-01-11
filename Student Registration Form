@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+    <style>
+        fieldset{
+            background-color: lightblue;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+
+
+        }
+    </style>
+    <h1 style="text-decoration: underline;">Exam Registration Form</h1>
+    <form style="align-items: center;">
+        <fieldset style="width: 80%;">
+            <legend style="color: yellow; background-color: black;">Student Personal Details</legend>
+            <h3>Please fill the information requested below in order to complete the Student registration</h3>
+           
+
+        <label>Std First Name ::</label>
+        <input type="text" placeholder="Enter your First Name">  <label>Std Last Name::</label>
+        <input type="text" placeholder="Enter your Last Name">
+        <br><br>
+        <center>
+        <label style="text-align: center;"> Date of Birth :</label>
+        <input type="date"><br><br>
+        <label>Student Registration Number ::</label>
+        <input type="number"><br><br>
+        <label>Enter Email ::</label>
+        <input type="email"><br><br>
+        <label>Mobile Number ::</label>
+        <input type="number" placeholder="+91"><br><br>
+        <label>Select Gender :</label>
+        <input type="radio" name="Gender" id="Gender" value="Male">Male
+        <input type="radio" name="Gender" id="Gender" value="Female">Female
+        <input type="radio" name="Gender" id="Gender" value="Others">Others
+        <br><br>
+        <label>Hobbies ::</label>
+        <input type="checkbox" name="Skills" id="Skills" value="Music">Music
+        <input type="checkbox" name="Skills" id="Skills" value="Sports">Sports
+        <input type="checkbox" name="Skills" id="Skills" value="Dance">Dance
+        <input type="checkbox" name="Skills" id="Skills" value="Travel">Travel
+        <br><br>
+        <label>Qualification :</label>
+        <select>
+            <option>B.Com</option>
+            <option>B.Com(Hons)</option>
+            <option>BCA</option>
+            <option>MCA</option>
+            <option>MBA</option>
+        </select>
+        <br><br>
+        <label>Student Permanent Address ::</label>
+        <textarea>  </textarea><br><br><br><br><br>
+        <input type="submit">
+            <input type="reset">
+    </center>
+        

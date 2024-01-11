@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table,th,td{
+                border: solid 2px;
+                border-collapse: collapse;
+            }
+            
+        </style>
+    </head>
+    <table>
+        <caption style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman';;">Invoice</caption>
+        <tr style="background-color: gray;">
+            <th>Item/Desc.</th>
+            <th>Qty.</th>
+            <th>@</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>Paperclips</td>
+            <td>100</td>
+            <td>1.15</td>
+            <td>115</td>
+        </tr>
+        <tr>
+            <td>Paper(Case)</td>
+            <td>10</td>
+            <td>45.99</td>
+            <td>459.90</td>
+        </tr>
+        <tr>
+            <td style="padding: 10px; text-align: left;">Wasterpaper<br>Baskets </td>
+            <td>2</td>
+            <td>17.99</td>
+            <td >35.98</td>
+        </tr>
+        <tr>
+            <td colspan="3" style="background-color: gray;">Subtotal</td>
+            <td>610.88</td>
+        </tr>
+        <tr>
+            <td colspan="2" style="background-color: gray;">Tax</td>
+            <td>7%</td>
+            <td>42.76</td>
+        </tr>
+        <tr>
+            <td colspan="3" style="background-color: gray;">Total</td>
+            <td>653.64</td>
+        </tr>
+    </table>
+</html>

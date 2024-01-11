@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        video {
+                position: fixed;
+                right:0;
+                bottom:0;
+                min-height:100%;
+                min-width:100%;
+                height:auto;
+                width:auto;
+                z-index:-999;
+            }
+        
+        form{
+            top: 50%;
+            bottom: 50%;
+        }
+        
+        h5{
+            float: right;
+            margin: 5px 0px;
+            width: 200px;
+        }
+        table{
+            background-color: orange;
+        }
+        .i5{
+            background-color: red;
+            float: right;
+            margin: 5px 0px;
+        }
+        
+        label{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: white;
+            text-transform: uppercase;
+            font-size: 3mm;
+            display: inline-block;
+
+        }  
+            
+        
+        .i4{
+            background-color: green;
+            float:right;
+            margin: 5px 0px;
+
+        }
+        input{
+            display: inline-block;
+            border: none;
+            text-align: left;
+            box-shadow: 3px 2px rgba(216, 212, 228, 0.9);
+            padding: 10px;
+            
+        }
+        label[type=radio]{
+            text-align: left;
+        }
+        
+    </style>
+    <body>
+        <video autoplay muted loop src="168787 (1080p).mp4"></video>
+    </body>
+    <form>
+        <fieldset style="background-color: darkblue;">
+            <table border="">
+                <tr style="background-color: orange;">
+                    <td><label>Login</label></td>
+                </tr>
+            </table>
+            <hr>
+            <center>               
+            <label style="padding: 50px;">First Name</label>
+            <input type="text" placeholder="Enter First Name"><br>
+            <label style="padding: 50px;">Last Name</label>
+            <input type="text" placeholder="Enter Last Name"><br><br>
+            
+            <label style="padding: 30px;">Enter Email :</label>
+        <input type="email" placeholder="Enter your email"><br><br>
+
+            <label style="padding: 30px;">Password</label>
+            <input type="password" placeholder="Enter Password"><br><br>
+
+        </center>
+        <h5><input class="i1" type="checkbox"> I agree to the terms</h5>
+        <br><br>
+        <hr>
+        
+        <button class="i5"  type="reset">Cancel</button>
+        <button class="i4"  type="submit">Login</button>
+        
+        </fieldset>
+        
+        
+    </form>
+</html>

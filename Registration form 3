@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+    <body>
+        <style>
+            fieldset{
+                background-color: violet;
+            }
+            body{
+                background-color: blueviolet;
+            }
+        </style>
+    </body>
+    <form style="text-align: center;">
+        <fieldset>
+        <label style="padding: 50px;">Name:</label>
+        <input type="text" placeholder="your Name"><br><br>
+
+        <label style="padding: 50px;">Email:</label>
+        <input type="email" placeholder="your email"><br><br>
+
+        <label style="padding: 40px;">Password:</label>
+        <input type="password"><br><br>
+
+        <label style="padding: 25px;">Phone Number:</label>
+        <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+
+        <label style="padding: 20px;">Gender</label>
+        Male:<input type="radio" name="Gender" id="Gender" value="Male">
+        Female:<input type="radio" name="Gender" id="Gender" value="Female">
+        Others:<input type="radio" name="Gender" id="Gender" value="Others">
+        <br><br>
+        <label style="padding: 30px;">Language :</label>
+        <select>
+            <option>Hindi</option>
+            <option>English</option>
+            <option>French</option>
+            <option>Spanish</option>
+        </select>
+        <br><br>
+        <label style="padding: 70px;">About:</label>
+        <textarea> </textarea>
+        <br><br>
+
+        <button type="submit" style="width: 50%; padding: 15px;"><a href="http://127.0.0.1:3000/Employee Details Form">Register</a></button>
+
+    </fieldset>
+    </form>
+        

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculate Difference</title>
+</head>
+<body>
+
+<script>
+  var userInput = prompt('Enter a number:');
+
+  var userNumber = parseFloat(userInput);
+
+  if (!isNaN(userNumber)) {
+    var givenNumber = 13;
+
+    var absoluteDifference = Math.abs(userNumber - givenNumber);
+
+    if (userNumber > givenNumber) {
+      var result = 2 * absoluteDifference;
+      alert('The number is greater than 13. Double the absolute difference is: ' + result);
+    } else {
+      alert('The absolute difference between ' + givenNumber + ' and ' + userNumber + ' is: ' + absoluteDifference);
+    }
+    }
+    else {
+    alert('Invalid input. Please enter a valid number.');
+}
+</script>
+
+</body>
+</html>

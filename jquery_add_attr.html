@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <style>
+            #d1{
+                width: 500px;
+                background-color: aqua;
+            }
+        </style>
+        <script>
+            $().ready(function(){
+                $('#b2').click(function() {
+                    alert($('div').attr('class'))
+                });
+            });
+
+            $().ready(function(){
+                $('#b1').click(function() {
+                    $('div').attr('class','div');
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id="d1"> hello i am Aryan</div>
+        <button id="b1">Add Class</button>
+        <button id="b2">Show Class</button>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+<html>
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#submitBtn').prop('disabled', true);
+
+            $('#checkBox').change(function () {
+                if ($(this).is(':checked')) {
+                    $('#submitBtn').prop('disabled', false);
+                } else {
+                    $('#submitBtn').prop('disabled', true);
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+
+<form id="myForm">
+    <label for="checkBox">Agree to terms and conditions:</label>
+    <input type="checkbox" id="checkBox" name="checkBox">
+
+    <br>
+    <br>
+
+    <input type="submit" id="submitBtn" value="Submit">
+</form>
+
+</body>
+</html>

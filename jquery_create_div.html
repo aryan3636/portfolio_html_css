@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div id="container">Hello I am Container.</div>
+
+        
+        <script>
+            $().ready(function(){
+                var newDiv = $('<div></div>');
+                newDiv.css({
+                    'width': '200px',
+                    'background-color':'blue',
+                    'color':'white',
+                    'text-align':'center',
+                    'margin':'10px'
+
+                });
+                newDiv.text('This is a new Div');
+                $('#container').append(newDiv);
+            })
+            
+        </script>
+    </body>
+</html>

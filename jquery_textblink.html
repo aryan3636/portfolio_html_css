@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            function blinkText() {
+                $('#blinkingText').fadeToggle(500); 
+            }
+
+            setInterval(blinkText, 500);
+        });
+    </script>
+    <style>
+        #blinkingText {
+            font-size: 18px;
+            font-weight: bold;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+<div id="blinkingText">This text is blinking!</div>
+
+</body>
+</html>

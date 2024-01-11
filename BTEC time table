@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <table border="1">
+        <tr>
+            <th>Day</th>
+            <th>8.50-10.20</th>
+            <th style="background-color: gray;">Break</th>
+            <th>10.40-12.10</th>
+            <th style="background-color: gray;">12.10-12.55</th>
+            <th>12.55-2.25</th>
+            <th style="background-color: gray;">Break</th>
+            <th>2.40-4.10</th>
+        </tr>
+        <tr>
+            <td>MON<br><br><br><br></td>
+            <td style="text-align: center; background-color: lightpink;">A<br><br><br>Psychology</td>
+            <td style="background-color: gray;"></td>
+            <td style="text-align: center; background-color: lightgreen;">B<br><br>Maths Studies</td>
+            <td style="text-align: center; background-color: gray;">Lunch<br><br><br><br></td>
+            <td style="text-align: center; background-color: blue;">C<br><br>BTEC Certificate Sport</td>
+            <td style="background-color: gray;"></td>
+            <td style="text-align: center; background-color: orange;">D<br><br>Psychology Research Methods LIC</td>
+
+        </tr>
+        <tr>
+            <td>TUE<br><br><br><br></td>
+            <td style="text-align: center; background-color: yellow;">E<br><br><br><br><br>Sociology</td>
+            <td style="background-color: gray;"></td>
+            <td style="text-align: center; background-color: orange;">F<br><br>Sociology Essay<br>Study Zone</td>
+            <td style="text-align: center; background-color: gray;">Lunch<br><br><br>Maths Support</td>
+            <td style="text-align: center; background-color: lightgreen;">B<br><br><br><br>Maths Studies</td>
+            <td style="background-color: gray;"></td>
+            <td style="text-align: center; background-color: pink;">A<br><br><br><br><br>Psychology </td>
+
+        </tr>
+        <tr>
+            <td>WED<br><br><br><br></td>
+            <td style="text-align: center; background-color: purple;">D<br><br><br>Tutor Group</td>
+            <td style="background-color: gray;"></td>
+            <td style="text-align: center; background-color: blue;">C<br><br>BTEC Certificate Sport</td>            
+            <td style="text-align: center; background-color: gray;">Lunch<br><br><br><br><br></td>
+            <td style="text-align: center;">Enrichment<br><br><br><br><br></td>
+            <td colspan="2" style="background-color: orange;">Sport Assignment Unit 3<br>Breakout Zone<br><br><br></td>
+            
+
+        </tr>
+        <tr>
+            <td>THURS<br><br><br><br></td>
+            <td style="text-align: center; background-color: orange;">F<br><br><br>Maths Studies homework<br>Study Zone</td>
+            <td style="background-color: gray;"></td>
+            <td style="text-align: center; background-color: yellow;">E<br><br><br><br><br><br>Sociology</td>
+            <td style="text-align: center; background-color: gray;">Lunch<br><br><br><br><br><br><br></td>
+            <td style="text-align: center; background-color: yellow;">A<br><br><br><br><br><br>Psycology</td>
+            <td style="background-color: gray;"></td>
+            <td style="text-align: center; background-color: orange;">B<br><br>Sociology Homework Improvement<br>Breakout Zone</td>
+
+        </tr>
+        <tr>
+            <td>FRI<br><br><br><br></td>
+            <td style="text-align: center; background-color: blue;">C<br><br><br>BTEC Certificate Sport</td>            
+            <td style="background-color: gray;"></td>
+            <td style="text-align: center; background-color: orange;">D<br><br>Psycology 15 marks question practice<br>LIC</td>
+            <td style="text-align: center; background-color: gray;">Lunch<br><br><br><br><br>Sociology Support</td>
+            <td style="text-align: center; background-color: yellow;">E<br><br><br><br><br><br>Sociology</td>
+            <td style="background-color: gray;"></td>
+            <td style="text-align: center; background-color: orange;">F<br><br>Write Up Weekly Notes<br>Breakout Zone</td>
+
+        </tr>
+    </table>
+
+</html>

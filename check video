@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+
+#videoal video
+{
+  margin: 30px 0px 0px 20px;
+  float: left;
+ }
+ #videoal
+ {
+  margin: 50px 20px 10px 20px; /TRBL/
+  width: 300px;
+  }
+
+ #videoal > tr
+{
+    border: 1px solid tomato
+}
+
+
+        </style>
+    </head>
+
+    <body>
+
+        <div id="videoal">
+            <table>
+            <tr>
+              <td>
+              <video width="200" height="200" autoplay loop muted>
+                <source src="waves.mp4" type="video/mp4">
+                
+              </video>
+              </td>
+              <td>
+              <video width="200" height="200" controls>
+                <source src="waves.mp4" type="video/mp4">
+                
+              </video>
+              </td>
+
+              <td>
+                <video width="200" height="200" controls>
+                  <source src="waves.mp4" type="video/mp4">
+                  
+                </video>
+                </td>
+
+                <td>
+                    <video width="200" height="200" controls>
+                      <source src="waves.mp4" type="video/mp4">
+                      
+                    </video>
+                    </td>
+
+                    <td>
+                        <video width="200" height="200" controls>
+                          <source src="waves.mp4" type="video/mp4">
+                          
+                        </video>
+                        </td>
+              </tr>
+              </table>
+            </div>
+                
+                
+
+    </body>
+
+</html>

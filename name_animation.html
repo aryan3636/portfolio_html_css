@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+    <head>
+
+        <style>
+
+        html,body{
+            height:100%;
+        }
+
+        body{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            height:100%;
+            background: black;
+
+        }
+
+        #box{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            width:400px;
+            height:200px;
+            background-clip: text;
+            animation: textShine 5s ease-in-out infinite alternate;            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 2.5rem;
+            
+        }
+        .d1{
+            background: linear-gradient(60deg, red, blue, purple, green,orange, yellow, indigo,pink,skyblue, lightgreen);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-fill-color: transparent;
+            background-size: 500% auto;
+            animation: textShine 5s ease-in-out infinite alternate;
+        }
+
+        
+        .d2, .d4, .d6{
+            animation: anim4 3s alternate ease-in-out infinite;
+        }
+        .d3, .d5{
+            animation: anim5 3s alternate ease-in-out infinite;
+        }
+
+       
+
+       
+
+        @keyframes anim4{
+            0%{margin-top: -150px;}
+            100%{margin-top: 100px;}
+        }
+        @keyframes anim5{
+            0%{margin-top: 100px;}
+            100%{margin-top: -150px;}
+        }
+
+       
+        @keyframes textShine {
+            0% {
+            background-position: 0% 50%;
+        }
+            100% {
+            background-position: 100% 50%;
+        }
+
+        
+}
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <div class="d1" id="box">
+            <div class="d2">A</div>
+            <div class="d3">R</div>
+            <div class="d4">Y</div>
+            <div class="d5">A</div>
+            <div class="d6">N</div>
+
+        </div>
+
+
+    </body>
+
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            function findLargestNumber(num1, num2, num3, num4, num5) {
+            var largest = num1;
+
+                if (num2 > largest) {
+                    largest = num2;
+                }
+
+                if (num3 > largest) {
+                    largest = num3;
+                }
+
+                if (num4 > largest) {
+                    largest = num4;
+                }
+
+                if (num5 > largest) {
+                    largest = num5;
+                }
+
+                return largest;
+            }
+
+
+
+            var number1 = prompt("Enter the first number:");
+            var number2 = prompt("Enter the second number:");
+            var number3 = prompt("Enter the third number:");
+            var number4 = prompt("Enter the fourth number:");
+            var number5 = print("Enter the fifth number:");
+
+            var largestNumber = findLargestNumber(number1, number2, number3, number4, number5);
+
+            alert("The largest number is: " + largestNumber);
+
+        </script>
+    </body>
+</html>

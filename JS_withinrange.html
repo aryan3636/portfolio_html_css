@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            function withinrange(num, lower, bigger) {
+                return num >= lower && num <= bigger;
+            }
+
+            var number = prompt("Enter an integer:");
+
+            if (withinrange(number,100,400)) {
+                alert(number + "is within the range")
+            }
+            else {
+                alert(number+ "is not within range")
+            }
+        </script>
+    </body>
+</html>

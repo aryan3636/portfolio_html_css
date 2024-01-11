@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        td{
+            padding: 15px;
+        }
+    </style>
+    <table border="1">
+        <caption>Product Table 1</caption>
+        <tr>
+            <th>Product ID</th>
+            <th>Product Name</th>
+            <th>Product Qualtiy</th>
+            <th>Product Quantity</th>
+        </tr>
+        <tr style="text-align: center;">
+            <td>1</td>
+            <td>Wheat</td>
+            <td>Good</td>
+            <td>200 Bags</td>
+        </tr>
+        <tr style="text-align: center;">
+            <td>2</td>
+            <td>Rice</td>
+            <td>Good</td>
+            <td>250 Bags</td>
+        </tr>
+        <tr style="text-align: center;">
+            <td>3</td>
+            <td>Sugar</td>
+            <td>Good</td>
+            <td>200 Bags</td>
+        </tr>
+    </table>

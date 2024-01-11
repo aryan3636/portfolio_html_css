@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        table{
+            border:2px solid darkblue;
+            border-width: 3px;
+        }
+        tr:hover{
+            background-color: aqua;
+            color: green;
+        }
+        tr:hover{
+                background-color:darkred;
+                color:aliceblue;
+        }
+        td:nth-child(even):hover{
+        font-style: italic;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color: blue;
+        color:aliceblue;
+    }
+    </style>
+</head>
+<table>
+    <caption style="font-style: italic;color: blue;">Product Table</caption>
+    <tr>
+        <th>Prod ID</th>
+        <th>Cost Price</th>
+        <th>Selling Price</th>
+        <th>In Stock</th>
+        <th>Profit</th>
+    </tr>
+    <tr>
+        <td>p1</td>
+        <td>100</td>
+        <td>200</td>
+        <td>Yes</td>
+        <td>100</td>
+    </tr>
+    <tr>
+        <td>p2</td>
+        <td>200</td>
+        <td>300</td>
+        <td>No</td>
+        <td>100</td>
+    </tr>
+    <tr>
+        <td>p3</td>
+        <td>500</td>
+        <td>700</td>
+        <td>Yes</td>
+        <td>200</td>
+    </tr>
+    <tr>
+        <td>p4</td>
+        <td>500</td>
+        <td>1000</td>
+        <td>Yes</td>
+        <td>500</td>
+    </tr>
+    <tr>
+        <td>p5</td>
+        <td>400</td>
+        <td>700</td>
+        <td>Yes</td>
+        <td>300</td>
+    </tr>
+</table>
+
+
+<table>
+    <caption style="font-style: italic;color: blue;">Customer Details</caption>
+    <tr>
+        <th>Customer ID</th>
+        <th>Name</th>
+        <th>Product</th>
+        <th>Price</th>
+    </tr>
+    <tr>
+        <td>001</td>
+        <td>Sam</td>
+        <td>p2</td>
+        <td>300</td>
+    </tr>
+    <tr>
+        <td>002</td>
+        <td>Pam</td>
+        <td>p1</td>
+        <td>200</td>
+    </tr>
+    <tr>
+        <td>003</td>
+        <td>Tam</td>
+        <td>p4</td>
+        <td>1000</td>
+    </tr>
+</table>
+<table>
+    <caption style="font-style: italic;color: blue;">Grocery Items Table</caption>
+    <tr>
+        <th>Items</th>
+        <th>Company</th>
+        <th>Cost Price</th>
+        <th>Selinng Price</th>
+        <th>Profit</th>
+    </tr>
+    <tr>
+        <td>Soft Drink</td>
+        <td>Coca-Cola</td>
+        <td>10</td>
+        <td>20</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Bread</td>
+        <td>Harvest</td>
+        <td>20</td>
+        <td>30</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Corn Flakes</td>
+        <td>Kellog's</td>
+        <td>100</td>
+        <td>150</td>
+        <td>50</td>
+    </tr>
+</table>
+<table>
+    <caption style="font-style: italic;color: blue;">Time Table</caption>
+    <tr>
+        <th>S.No.</th>
+        <th>Time</th>
+        <th>Activity</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>8AM-10AM</td>
+        <td>Study</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>10AM-12PM</td>
+        <td>Breakfast</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>12PM-2PM</td>
+        <td>Study</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>2PM-4PM</td>
+        <td>Lunch</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>4PM-6PM</td>
+        <td>Chores</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>6PM-10PM</td>
+        <td>Study and Class</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>10PM-12AM</td>
+        <td>Netflix and Chill</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>12PM-8AM</td>
+        <td>Sweet Dreams</td>
+    </tr>
+</table>

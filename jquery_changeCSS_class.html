@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style>
+        .defaultClass {
+            width: 200px;
+            height: 100px;
+            background-color: lightblue;
+        }
+
+        .newClass {
+            width: 300px;
+            height: 150px;
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="myDiv" class="defaultClass"></div>
+    <button id="changeClassBtn">Change Class</button>
+    
+    <script>
+        $(document).ready(function () {
+            $('#changeClassBtn').click(function () {
+                $('#myDiv').removeClass('defaultClass').addClass('newClass');
+            });
+        });
+    </script>
+    
+</body>
+    
+</html>
